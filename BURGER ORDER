@@ -1,0 +1,42 @@
+def burger(name,place):
+    bbq=250;
+    beef=170;
+    naga=200;
+    tax=.08;
+    
+    if(name=='1'):
+        if(place=="CAINTA") or (place=="TAYTAY") or (place=="TERESA") or (place=="CARDONA") or (place=="MORONG") or (place=="TALIMI ISLAND") or (place=="JALA-JALA") or (place=="BARAS") or (place=="SAN MATEO") or (place=="PILILIA") or (place=="RODRIGUEZ") or (place=="BINANGONAN") or (place=="ANGONO") or (place=="TANAY"):
+            
+            total= bbq + 40 + .08;
+            print("\nTotal Prize is : ",total);
+        else:
+            total=bbq +60 +.08;
+    elif(name=='2'):
+        if(place=="CAINTA") or (place=="TAYTAY") or (place=="TERESA") or (place=="CARDONA") or (place=="MORONG") or (place=="TALIMI ISLAND") or (place=="JALA-JALA") or (place=="BARAS") or (place=="SAN MATEO") or (place=="PILILIA") or (place=="RODRIGUEZ") or (place=="BINANGONAN") or (place=="ANGONO") or (place=="TANAY"):
+            
+            total= beef + 40 + .08;
+            print("\nTotal Prize is : ",total);
+        else:
+            total=beef +60 +.08;
+    elif(name=='2'):
+        if(place=="CAINTA") or (place=="TAYTAY") or (place=="TERESA") or (place=="CARDONA") or (place=="MORONG") or (place=="TALIMI ISLAND") or (place=="JALA-JALA") or (place=="BARAS") or (place=="SAN MATEO") or (place=="PILILIA") or (place=="RODRIGUEZ") or (place=="BINANGONAN") or (place=="ANGONO") or (place=="TANAY"):
+            
+            total= naga + 40 + .08;
+            print("\nTotal Prize is : ",total);
+        else:
+            total=naga +60 +.08;
+    else:
+        print("invalid input");
+print("-------==---MENU-------------   PRICE");
+print("(1)BBQ Chicken Cheese Burger |   250 ");
+print("(2)Beef Burger               |   170 ");
+print("(3)Naga Drums                |   200 \n");
+        
+name= (input("Enter your Order (1-3): "));
+n= name;
+place= input("Enter your Place(uppercase): ");
+p = place;
+    
+burger(n,p)    
+            
+        
