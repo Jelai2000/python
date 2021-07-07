@@ -1,0 +1,23 @@
+def bmi(h,w):
+    m=h/100;    # convert our cm value to m valuee
+    bm=w/(m*m); # bmi formula
+    
+    b = (round(bm,1)); # round off our bm into first decimal point
+    
+    
+    if(bm<18.5):
+        print("Score is " , b , " You are Underweight.");
+    elif(bm <= 24.9):
+        print("Score is " , b , " You are Normal.");
+    elif(bm <= 30):
+        print("Score is " , b , " You are Overweright.");
+    elif(bm > 30):
+        print("Score is " , b , " You are Obese.");
+    
+    else:
+        print("invalid input");
+height= int(input("Enter your Height(cm) : "));
+h =height;
+weight= int(input("Enter your Weight(kg) : "));
+w =weight;
+bmi(h,w)
