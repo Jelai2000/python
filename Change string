@@ -1,0 +1,22 @@
+def replace_domain(email,new,old):
+    pos=email.find(old)         # find the old domain
+    name=email[:pos]            # get the all string except to the old                          domain
+    final=name+new;            # combine the all string that we gather
+    print("Your new email : ",final)
+
+
+email= input("Enter your Email: ")
+e=email
+new= input("Enter your new Domain: ")
+n=new
+old= input("Enter your old domain: ")
+o=old
+replace_domain(e,n,o)
+
+
+
+
+
+
+#email=input("Enter your Email: ")
+    
