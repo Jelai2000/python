@@ -1,0 +1,22 @@
+def divisible(mins,maxs,div):
+    c=maxs*div;
+    d=c-mins;
+    print("\nAnswer: " , d);
+    
+mins=int(input("Enter Minimum: "));
+mi=mins
+maxs=int(input("Enter Maximum: "));
+mx=maxs
+div=int(input("Enter Divisible: "))
+d=div
+divisible(mi,mx,d)
+
+
+
+output:
+
+Enter Minimum: 3
+Enter Maximum: 16
+Enter Divisible: 3
+
+Answer:  45
